@@ -1,0 +1,15 @@
+I want to create a simple personalized learning platform called CodeCraftHub where developers can track courses they want to learn. 
+Requirements: 
+- Use Python with Flask framework 
+- Store course data in a simple JSON text file (NO database needed) 
+- No authentication or user management needed 
+- Focus on learning REST API basics 
+Each course should track the following: 
+- Course name 
+- Description 
+- Target completion date 
+- Current status (Not Started, In Progress, Completed) 
+Recommend: 
+1. A simple project structure for beginners 
+2. The REST API endpoints to be created 
+3. How to store and retrieve data from a JSON file
