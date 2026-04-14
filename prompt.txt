@@ -52,3 +52,17 @@ Provide:
 4. Test cases for error scenarios (missing fields, invalid data, course not found) 
 
 Make the tests easy to copy and paste for beginners.
+
+
+Creating project documentation
+
+Create a complete README.md file for the CodeCraftHub project that includes: 
+1. Project overview and description 
+2. Features list 
+3. Installation instructions (step-by-step) 
+4. How to run the application 
+5. API endpoints documentation with examples 
+6. Testing instructions 
+7. Troubleshooting common issues 
+8. Project structure explanation 
+Write it for beginners who are learning REST APIs for the first time.
