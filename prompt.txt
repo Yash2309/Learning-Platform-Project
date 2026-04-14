@@ -13,3 +13,30 @@ Recommend:
 1. A simple project structure for beginners 
 2. The REST API endpoints to be created 
 3. How to store and retrieve data from a JSON file
+
+
+Creating the application structure:
+
+Now create the complete Python Flask code for app.py with these requirements: 
+1. Create a Flask REST API with all CRUD operations for courses 
+2. Store data in a JSON file called "courses.json" 
+3. Include these endpoints: 
+- POST /api/courses - Add a new course 
+- GET /api/courses - Get all courses 
+- GET /api/courses/ - Get a specific course 
+- PUT /api/courses/ - Update a course 
+- DELETE /api/courses/ - Delete a course 
+4. Each course must have: 
+- id (auto-generated, starting from 1) 
+- name (required) 
+- description (required) 
+- target_date (required, format YYYY-MM-DD) 
+- status (required, must be: "Not Started", "In Progress", or "Completed") 
+- created_at (auto-generated timestamp) 
+5. Include proper error handling for: 
+- Missing required fields 
+- Course not found 
+- Invalid status values 
+- File read/write errors 
+6. Add helpful comments throughout the code for beginners 
+7. Make sure the app creates courses.json automatically if it doesn't exist
