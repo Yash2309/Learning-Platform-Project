@@ -40,3 +40,15 @@ Now create the complete Python Flask code for app.py with these requirements:
 - File read/write errors 
 6. Add helpful comments throughout the code for beginners 
 7. Make sure the app creates courses.json automatically if it doesn't exist
+
+
+Creating test cases for the API
+
+Create comprehensive test cases for the CodeCraftHub API. 
+Provide: 
+1. curl commands to test each endpoint 
+2. Example JSON payloads for POST and PUT requests 
+3. Expected responses for successful operations 
+4. Test cases for error scenarios (missing fields, invalid data, course not found) 
+
+Make the tests easy to copy and paste for beginners.
